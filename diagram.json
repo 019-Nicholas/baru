@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "author": "Anonymous maker",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-arduino-mega", "id": "mega", "top": 0, "left": 0, "attrs": {} },
+    { "type": "wokwi-logic-analyzer", "id": "logic1", "top": -105.25, "left": 278.4, "attrs": {} }
+  ],
+  "connections": [
+    [ "logic1:GND", "mega:GND.1", "black", [ "h0" ] ],
+    [ "logic1:D0", "mega:1", "green", [ "h0" ] ]
+  ],
+  "dependencies": {}
+}
